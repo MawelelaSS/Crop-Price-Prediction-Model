@@ -1,0 +1,33 @@
+# Ignore all CSV files
+*.csv
+
+# Optional: ignore specific dataset folder
+data/
+datasets/
+
+# But keep placeholder files if needed
+!data/.gitkeep
+
+# Ignore large files (optional, useful for ML projects)
+*.zip
+*.tar
+*.gz
+
+# Python-related (if you're using ML with Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
